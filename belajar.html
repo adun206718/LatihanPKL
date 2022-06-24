@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar</title>
+  <style>
+    h1 {
+        color: rgb(119, 0, 0);
+        text-align: center;
+    }
+    a {
+        color: black    ;
+     
+    }
+    nav {
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+    }
+    .pict{
+        border-radius: 100px;
+        width: 420px;
+        height: 420px;
+    }
+
+  </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Contact</a>
+        </nav>
+        <header>
+            <h1>Daftar Panen</h1>
+            <article>
+                <h1>Tutorial Semantik Elemen untuk Pemula</h1>
+                <p>Semantik elemen adalah elemen yang memiliki makna dan tujuan.
+                  Tujuannya agar kode HTML mudah dibaca dan tidak ada penyalahgunaan tag.
+                  Elemen semantik bagus untuk SEO dan juga dapat meningkatkan accessibility.
+                </p>
+              </article>
+               <details>
+                <summary>Lihat Spesifikasi</summary>
+                Prosesor: Intel Core i9, RAM 32GB, SSD 1TB, HDD 4TB
+              </details>
+            </article>
+            <article>
+                <h1>Waktu di HTML</h1>
+                <p>
+                  Ditulis pada <time datetime="2020-20-07">20 July 2020</time>
+                </p>
+                <p>
+                  Hari ini saya ada acara dari pukul <time>08:00</time> sampai pukul
+                  <time>10:00</time>.
+                </p>
+              </article>
+        </header>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Registrasi</legend>
+            <p>
+            <label for="Nama" type="Nama">Nama:</label>
+            <input type="text" placeholder="Petani Kode">
+            </p>
+            <p>
+            <label for="Username" name="Username">Username:</label>
+            <input type="Username">
+            </p>
+            <p>
+            <label for="email" name="email">Email:</label>
+            <input type="email">
+            </p>
+            <p>
+                <label for="Jenis Kelamin">Jenis Kelamin:</label>
+                <input type="radio" name="Jenis Kelamin" id="Laki Laki" value="Laki Laki">
+                <label for="">Laki laki</label>
+                <input type="radio">
+                <label for="Perempuan">Perempuan</label>
+            </p>
+            <p>
+                <label for="Agama">Agama:</label>
+                <select name="Agama" id="">
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Budha">Budha</option>
+                </select>
+            </p>
+            <p>
+                <label for="Biografi">Biografi:</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <input type="button" value="Daftar">
+            </p>
+        </fieldset>
+    </form>
+    <form action="">`
+        <fieldset>
+            <legend>Form</legend>
+            <p>
+                <label for="Alamat">Alamat Web:</label>
+                <input type="url" name="url" id="">
+            </p>
+            <p>
+                <label for="Tanggal">Tanggal Lahir</label>
+                <input type="date" name="Tanggal lahir" id="">
+            </p>
+            <p>
+                <label for="Umur">Umur</label>
+                <input type="number" min="8" max="90">
+            </p>
+            <p>
+                <input type="button" value="Send">
+            </p>
+        </fieldset>
+    </form>
+    <table border="1" ce>
+        <tr>
+            <th rowspan="2" bgcolor="yellow">Bulan</th>
+            <th colspan="2" bgcolor="#00ff80">Hasil Panen</th>
+        </tr>
+        <tr>
+            <th>Padi</th>
+            <th>Kacang</th>
+        </tr>
+        <tr>
+            <td>Januari</td>
+            <td>500 Kg</td>
+            <td>231 Kg</td>
+        </tr>
+        <tr>
+            <td>Februari</td>
+            <td>342 Kg</td>
+            <td>423 Kg</td>
+        </tr>
+        <tr>
+            <td>Maret</td>
+            <td>432 Kg</td>
+            <td>124 Kg</td>
+        </tr>
+        <tr>
+            <td>April</td>
+            <td>453 Kg</td>
+            <td>523 Kg</td>
+        </tr>
+    </table>
+    <table border="1">
+        <tr>
+            <th colspan="3" bgcolor="yellow">Produk unggulan</th>
+        </tr>
+        <tr>
+            <td rowspan="4">
+                <img src="pict.jpg" alt="" width="250px" height="250px">
+            </td>
+        </tr>
+        <tr>
+            <td >Nama</td>
+            <td>Benih kode</td>
+        </tr>
+        <tr>
+            <td>Harga</td>
+            <td>Rp 192.000</td>
+        </tr>
+        <td>
+            Fitur
+        </td>
+        <td>
+            <ul>
+                <li>
+                    Dilengkapi Dokumentasi
+                </li>
+                <li>Ukuran 31 MB</li>
+                <li>Masa Tanam: 6 Bulan</li>
+                <li>Lisensi : MIT</li>
+            </ul>
+        </td>
+    </table>
+<ol>
+    <li>Jeruk</li>
+    <li>Durian</li>
+    <li>Pisang</li>
+    <li>Pepaya</li>
+    <li>Mangga</li> 
+</ol>
+<!-- dengan type gambar -->
+<ul style="list-style-image: url(https://assets.ubuntu.com/sites/ubuntu/latest/u/img/favicon.ico)">
+    <li>Javascript</li>
+    <li>PHP</li>
+    <li>Java</li>
+    <li>Python</li>
+    <li>Kotlin</li>
+</ul>
+<dl>
+    <dt>Kopi</dt>
+    <dd>Sebuah minuman berwarna hitam. Menurut pendapat lain kopi adalah air yang dimasak sampai gosong.</dd>
+    <dt>Kopi Black Magic</dt>
+    <dd>Kopi hitam atau kopi tradisional yang dibuat dengan mantra-mantra.</dd>
+    <dt>White Coffee</dt>
+    <dd>Kopi berwarna putih, kandungan kafeinnya sedikit.</dd>
+    <dt>Kopi++</dt>
+    <dd>Kopi ini mampu meningkatkan imajinasi 99 kali lipat.</dd>
+</dl>
+
+<figure>
+    <center><img src="pict.jpg" alt="" id="gambar1" class="pict"></center>
+    <figcaption>Halo</figcaption>
+</figure>
+<br>
+<br>
+<pre>
+tak ada yang lebih tabah memek pepek kontol
+dari hujan bulan Juni
+dirahasiakannya rintik rindunya
+kepada pohon berbunga itu
+    
+tak ada yang lebih bijak
+dari hujan bulan Juni
+dihapusnya jejak-jejak kakinya
+yang ragu-ragu di jalan itu
+    
+tak ada yang lebih arif
+dari hujan bulan Juni
+dibiarkannya yang tak terucapkan
+diserap akar pohon bunga itu
+    </pre>
+    <a href="#" onclick="alert('hello world')">Jalankan</a>
+    <footer>
+        <hr>
+        &copy;Copyright 2022
+    </footer>
+</body>
+</html>
